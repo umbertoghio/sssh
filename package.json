@@ -1,0 +1,26 @@
+{
+  "name": "sssh",
+  "version": "1.0.0",
+  "description": "SSH Connections and Tunnel Helper",
+  "author": {
+    "name": "Umberto Ghio"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "dependencies": {
+    "ipt": "^2.0.0",
+    "simple-output": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "license": "MIT"
+}
