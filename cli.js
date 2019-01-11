@@ -8,7 +8,8 @@ const { execSync } = require('child_process')
 const input = config.map(el => {
   const name = `${el.name}: ${el.description}`
   const forward = el.portForward ? `-L ${el.portForward}:127.0.0.1:${el.portForward}` : ''
-  const value = `ssh ${forward} ${el.username}@${el.host}`
+  const key = el.key ? `-i ${el.key}` : ''
+  const value = `ssh ${key} ${forward} ${el.username}@${el.host}`
   return { name, value }
 })
 

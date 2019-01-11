@@ -6,11 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Link to .sssh config file
-.sssh
+.sssh.json
 
 # Yarn Lock
 yarn.lock
-
+package-lock.json
 
 # VS Code
 .vscode
