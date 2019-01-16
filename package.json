@@ -1,11 +1,23 @@
 {
-  "name": "sssh",
+  "name": "simplyssh",
   "version": "1.0.0",
   "description": "SSH Connections and Tunnel Helper",
   "author": {
-    "name": "Umberto Ghio"
+    "name": "Umberto Ghio",
+    "email": "umberto@ghio.io"
   },
-  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umbertoghio/sssh.git"
+  },
+  "keywords": [
+    "ssh",
+    "helper",
+    "tunnel"
+  ],
+  "bin": {
+    "sssh": "cli.js"
+  },
   "engines": {
     "node": ">=8.0.0"
   },
