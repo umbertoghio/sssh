@@ -24,3 +24,13 @@ Create .sssh.json under your home folder and add an array of connections
 
 ]
 ```
+
+Usage: 
+
+```
+you@yourmachine$ sssh
+✔  Simple SSH Connection Handler
+? Select SSH connection (Use arrow keys or type to search)
+❯ Name of connection: More Details
+  Another Connection: Additional Detail
+```
