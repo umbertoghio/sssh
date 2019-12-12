@@ -1,6 +1,6 @@
 {
   "name": "simplyssh",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SSH Connections and Tunnel Helper",
   "author": {
     "name": "Umberto Ghio",
