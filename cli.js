@@ -13,11 +13,11 @@ const forwardParam = ({portForward = false}) => !portForward ? ''
 
 const input = config.map((el) => ({
   name: `${el.name}: ${el.description}`,
-  value: `ssh ${el.key ? `-i ${el.key}` : ''} ${forwardParam(el)} ${el.username}@${el.host}`
+  value: `ssh ${el.key ? `-i ${el.key}` : ''}${el.port ? `-p ${el.port}` : ''} ${forwardParam(el)} ${el.username}@${el.host}`
 }))
 
 const options = {
-  message: 'Select SSH connection',
+  message: 'Select SSH connection', 
   autocomplete: true,
   multiple: false,
   size: input.length

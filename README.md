@@ -12,6 +12,7 @@ Create .sssh.json under your home folder and add an array of connections
     "description": "More Details",
     "username": "ubuntu",
     "host": "ip.ip.ip.ip",
+    "port": 22
     "key": "path/to/key.pem"
   }, 
   {
